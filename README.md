@@ -62,13 +62,30 @@ US9. As a shoper, I would like to follow the brand on Instagram which I frequent
 US10. As a shoper, I would like to look at the exchange and refund policy so I can know if my items are eligible for them.
 ```
 
-<!-- - User Friendly
-- Mobile Friendly
-- Reviews
-- Special offers
-- Related items
-- Frequently Asked Questions (FAQ)
-- Social proof
-- Shipping information
-- Multi-Touchpoint Contact Page
-- Return policy -->
+### Scope
+#### Functional Requirement
+```
+FR1. Allow user to browse through listings easily and in an organised manner (EU2)(SO3, 4)
+FR2. Menu that allows user to click into different pages such as About, Policy and Contact (EU1, 4-5)(SO4)
+FR3. Indication of product availability (EU6)
+FR4. Appropriate buttons or the likes of it to minimise user clicks (SO3)
+FR5. Compressed media files (SO5)
+FR6. Carousel for featured reviews and Instagram section (SO6)
+FR7. At least 3 pages, or (if using a single scrolling page), at least 3 separate page areas. [Project requirement]
+FR8. Main navigation menu and a structured layout. [Project requirement]
+```
+
+#### Content Requirement
+```
+CR1. Reviews
+CR2. Social proof
+CR3. Special offers, promotions and discounts
+CR4. Related items upon clicking into a product page
+CR5. Frequently Asked Questions (FAQ)
+CR6. Policies: Exchange and Refund, Shipping
+CR7. About the brand
+CR8. Product descriptions and details
+CR9. Price
+CR10. Product availibilty
+CR11. Contact options and business hours
+```
