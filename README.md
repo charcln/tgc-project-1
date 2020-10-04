@@ -77,15 +77,15 @@ FR8. Main navigation menu and a structured layout. [Project requirement]
 
 #### Content Requirement
 ```
-CR1. Reviews
-CR2. Social proof
-CR3. Special offers, promotions and discounts
-CR4. Related items upon clicking into a product page
-CR5. Frequently Asked Questions (FAQ)
-CR6. Policies: Exchange and Refund, Shipping
-CR7. About the brand
-CR8. Product descriptions and details
-CR9. Price
-CR10. Product availibilty
+CR1. Reviews (US5)
+CR2. Social proof (US5)
+CR3. Special offers, promotions and discounts (US4)
+CR4. Related items upon clicking into a product page (SO3)
+CR5. Frequently Asked Questions (FAQ) (SO3)
+CR6. Policies: Exchange and Refund, Shipping (US8, 10)
+CR7. About the brand (US1)
+CR8. Product descriptions and details (US6)
+CR9. Price (US3)
+CR10. Product availibilty (US7)
 CR11. Contact options and business hours
 ```
