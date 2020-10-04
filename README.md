@@ -20,7 +20,7 @@ Please find the live demo [here](#).\
 ### Strategy
 #### Identifying External Users
 - The brand offers affordable mid-range contemporary fashion for young women from 18 to 35 years old who may be studying or working. 
-- This group women enjoy posting and browsing social media on their phones.
+- This group women enjoy posting and browsing social media on their phones to keep up with the latest happenings.
 - Therefore, the site has to be mobile-friendly and have a design that is modern.
 
 #### Identifying External User's Goals
@@ -36,6 +36,31 @@ EU5. Read shop policies before (Shipping) or after (Exchange/Return/Refund) purc
 EU6. Check whether their favored items are in-stock and available in their size.
 ```
 A single shop may have hundreds of products for a user to browse through. This can be overwhelming. Therefore, data should be displayed in a detailed and concise (short-and-sweet) manner to prevent that from happening.
+
+#### Identifying Site Owner's Goals
+The main purpose for the site owner is to provide information about the brand and its products to shoppers to make a sale. The site should include/be:
+```
+SO1. Adaptable to different screen sizes.
+SO2. Modern and attractive design.
+SO3. Easy to use.
+SO4. Information about the brand and its products.
+SO5. Quick loading times.
+SO6. Reviews and social proof.
+```
+
+#### User Stories
+```
+US1. As a shopper, I would like to look at who the brand is for so I can know if it is suited for me.
+US2. As a shopper, I would like to look at the brand's listings so I can know if it matches my fashion sense.
+US3. As a shopper, I would like to look at the prices so I can know if the items are within my budget.
+US4. As a shopper, I would like to look at existing promotions, deals and offers so I can know whether I am eligble for them.
+US5. As a shopper, I would like to look at reviews and social proof so I can build trust and confidence in the brand.
+US6. As a shopper, I would like to look at the product descriptions and details so I can make an informed decision.
+US7. As a shopper, I would like to look at the product availability so I can know if I am able to get it according to my needs, such as colors and sizes.
+US8. As a shopper, I would like to look at shipping locations and times so I can know whether the brand ships to my area and when to expect the items.
+US9. As a shoper, I would like to follow the brand on Instagram which I frequently use so I can know the latest updates and promotions.
+US10. As a shoper, I would like to look at the exchange and refund policy so I can know if my items are eligible for them.
+```
 
 <!-- - User Friendly
 - Mobile Friendly
