@@ -100,7 +100,7 @@ CR11. Contact options and business hours
 
 ## User Interface (UI)
 ### Color
-![Brand Colors](media/read-me/brand-colors.png "Brand Colors")
+![Brand Colors](media/read-me/wireframes.png "Brand Colors")
 
 
 ### Typeface
