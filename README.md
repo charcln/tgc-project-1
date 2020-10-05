@@ -89,3 +89,8 @@ CR9. Price (US3)
 CR10. Product availibilty (US7)
 CR11. Contact options and business hours
 ```
+
+## Developing the Site Structure and Organisation
+### Site Structure
+![Site Structure](media/read-me/site-structure.png "Site Structue")
+
