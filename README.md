@@ -94,3 +94,7 @@ CR11. Contact options and business hours
 ### Site Structure
 ![Site Structure](media/read-me/site-structure.png "Site Structure")
 
+### Wireframes
+![Wireframes](media/read-me/wireframes.png "Wireframes")
+
+
