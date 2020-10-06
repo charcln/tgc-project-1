@@ -108,3 +108,15 @@ body, html {
     .about-snippet {
         display: flex;
     }
+
+/* LOVE NOTES CAROUSEL */
+    /* display items as block */
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev{
+        display:block;
+    }
+
+    .love-notes {
+        background-color: pink;
+    }
