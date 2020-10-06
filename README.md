@@ -106,3 +106,9 @@ CR11. Contact options and business hours
 ### Typeface
 ### Mood
 ![Moodboard](media/read-me/moodboard.png "Moodboard")
+
+- Modern
+- Delightful
+- Gentle
+- Lovely
+- Soft
