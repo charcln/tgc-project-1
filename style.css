@@ -120,3 +120,19 @@ body, html {
     .love-notes {
         background-color: pink;
     }
+
+/* INSTAGRAM */
+    /* scale down the container for each thumbnail */
+    .instagram-thumbnail {
+        width: 25%;
+    }
+
+    /* allow the image to occupy the entire container */
+    .instagram-thumbnail img {
+        width: 100%;
+    }
+
+    /* let each thumbnail be side by side */
+    .instagram {
+        display: flex;
+    }
