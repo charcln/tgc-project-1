@@ -99,11 +99,6 @@ CR11. Contact options and business hours
 
 
 ## User Interface (UI)
-### Color
-![Brand Colors](media/read-me/brand-palette.png "Brand Colors")
-
-
-### Typeface
 ### Mood
 ![Moodboard](media/read-me/moodboard.png "Moodboard")
 
@@ -112,3 +107,6 @@ CR11. Contact options and business hours
 - Gentle
 - Lovely
 - Soft
+
+### Color
+![Brand Colors](media/read-me/brand-palette.png "Brand Colors")
