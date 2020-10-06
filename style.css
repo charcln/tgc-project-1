@@ -64,3 +64,18 @@ body, html {
     .featured {
         display: flex;
     }
+
+/* TRENDING ITEMS */
+    /* let trending items be side by side */
+    /* position in the middle */
+    .trending {
+        display: flex;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* provide spacing between each item */
+    .card {
+        margin: 1%;
+    }
