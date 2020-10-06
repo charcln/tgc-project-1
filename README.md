@@ -110,3 +110,8 @@ CR11. Contact options and business hours
 
 ### Color
 ![Brand Colors](media/read-me/brand-palette.png "Brand Colors")
+
+## Credits
+### Fonts
+Minotaur (https://www.productiontype.com/family/minotaur)\
+Others (https://www.fonts.adobe.com)
