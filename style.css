@@ -1,0 +1,4 @@
+/* Removes margin for the announcement bar*/
+.alert {
+    margin: 0;
+}
