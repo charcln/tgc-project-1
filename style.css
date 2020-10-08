@@ -1,10 +1,10 @@
 @font-face {
-    font-family: minotaur-regular;
-    src: fonts/minotaur-regular-TRIAL.otf
+    font-family: minotaur-bold;
+    src: fonts/minotaur-bold-TRIAL.otf
 }
 
 h1 {
-    font-family: minotaur-regular;
+    font-family: minotaur-bold;
 }
 
 /* ANNOUNCEMENT BAR */
