@@ -1,7 +1,18 @@
+@font-face {
+    font-family: minotaur-regular;
+    src: fonts/minotaur-regular-TRIAL.otf
+}
+
+h1 {
+    font-family: minotaur-regular;
+}
+
 /* ANNOUNCEMENT BAR */
     /* remove margin */
     .alert {
         margin: 0;
+        background-color: #FFBDA3;
+        color: black;
     }
 
 body, html {
