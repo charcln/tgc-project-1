@@ -7,6 +7,14 @@ h1 {
     font-family: minotaur-bold;
 }
 
+h3 {
+    font-family: degular,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
 /* ANNOUNCEMENT BAR */
     /* remove margin */
     .alert {
