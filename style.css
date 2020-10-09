@@ -20,17 +20,33 @@ h3 {
     margin: 0;
 }
 
+p {
+    font-family: degular,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    color: #494949;
+}
+
+strong {
+    font-family: minotaur-bold;
+    font-size: 2.5rem;
+}
+
 /* style logo wordmark */
 logo {
     font-family: minotaur-bold;
     font-size: 1.5rem;
     letter-spacing: -0.05rem;
+    color: #494949;
 }
 
 /* ANNOUNCEMENT BAR */
 .alert-warning {
+    background-color: #CC782B;
     border-radius: 0;
     margin: 0;
+    color: white;
 }
 
 /* remove unnecessary padding */
@@ -64,6 +80,16 @@ logo {
     letter-spacing: 0.1rem;
 }
 
+/* change navbar item's font color */
+.navbar-light .navbar-nav .nav-link {
+    color: #494949;
+    transition: 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #CC782B;
+}
+
 /* let navbar background be transparent */
 .bg-light {
     background-color:rgba(0, 0, 0, 0) !important;
@@ -72,7 +98,7 @@ logo {
 /* HERO BANNER */
     /* provide an image source for the background */
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallpaperaccess.com/full/626893.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0)), url("media/images/hero-banner/hero.jpg");
         height: 75vh;
         background-position: center;
         background-repeat: no-repeat;
@@ -88,6 +114,20 @@ logo {
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
+    }
+
+    .hero-text button {
+        margin-top: 5%;
+        padding: 4% 8%;
+        border-radius: 0.5rem;
+        border: 0;
+        color: #494949;
+        background-color: #FAEAE5;
+        transition: 0.3s;
+    }
+
+    .hero-text button:hover {
+        background-color: #FFBDA3;
     }
 
 /* SHOP CATEGORY */
