@@ -1,13 +1,16 @@
+/* install custom font */
 @font-face {
     font-family: minotaur-bold;
     src: fonts/minotaur-bold-TRIAL.otf
 }
 
+/* style <h1> */
 h1 {
     font-family: minotaur-bold;
     font-size: 1.5rem;
 }
 
+/* style <h3> */
 h3 {
     font-family: degular,sans-serif;
     font-weight: 300;
@@ -17,6 +20,7 @@ h3 {
     margin: 0;
 }
 
+/* style logo wordmark */
 logo {
     font-family: minotaur-bold;
     font-size: 1.5rem;
@@ -29,11 +33,15 @@ logo {
     margin: 0;
 }
 
+/* remove unnecessary padding */
+/* position away from the right edge */
 .alert-dismissible .close {
     padding: 0;
     padding-right: 2%;
 }
 
+/* adjust line height to make the icon smaller */
+/* add font preference to match the announcement text */
 .close {
     line-height: 1.5;
     font-family: degular,sans-serif;
@@ -47,6 +55,7 @@ logo {
     right: 2%;
 }
 
+/* add font preference */
 .nav-item {
     font-family: degular,sans-serif;
     font-weight: 300;
