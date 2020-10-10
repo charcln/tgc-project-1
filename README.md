@@ -115,3 +115,6 @@ CR11. Contact options and business hours
 ### Fonts
 Minotaur (https://www.productiontype.com/family/minotaur)\
 Others (https://www.fonts.adobe.com)
+
+## Images
+Shop Category - Dress (https://us.princesspolly.com/collections/dresses/products/rosebery-mini-dress)
