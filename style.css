@@ -33,6 +33,13 @@ strong {
     font-size: 2.5rem;
 }
 
+heading {
+    font-family: orpheuspro,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
 /* style logo wordmark */
 logo {
     font-family: minotaur-bold;
@@ -131,9 +138,21 @@ logo {
     }
 
 /* SHOP CATEGORY */
+
+    .heading {
+        padding-top: 2%;
+        background-color: #fff4f1;
+        color: #494949;
+    }
+
     /* let jumbatrons be side by side */
     .shop-category {
         display: flex;
+        background-color: #fff4f1;
+    }
+
+    .jumbotron {
+        background-color: #fff4f1;
     }
 
 /* FEATURED COLLECTION */
