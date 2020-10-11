@@ -129,6 +129,7 @@ button:focus, button:active {
 .category-item:hover {
     opacity: 0.8;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .category-item:hover button {
