@@ -117,4 +117,8 @@ Minotaur (https://www.productiontype.com/family/minotaur)\
 Others (https://www.fonts.adobe.com)
 
 ## Images
-Shop Category - Dress (https://us.princesspolly.com/collections/dresses/products/rosebery-mini-dress)
+Shop Category - Dress (https://us.fashionbunker.com/shop/clothing/dresses)
+
+Shop Category - Bottoms (https://www.stradivarius.com/)
+
+Shop Category - Tops (https://andjelacollection.com/products/loren-top-in-ivory)
