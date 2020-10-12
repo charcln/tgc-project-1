@@ -2,7 +2,7 @@ button {
     background-color: #ffe7d3;
     font-family: degular;
     font-weight: 200;
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     letter-spacing: 0.08rem;
     border-radius: 16px;
     border: none;
@@ -31,6 +31,10 @@ button:hover {
 .close {
     font-weight: 0;
     font-size: 1rem;
+}
+
+.close:hover {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .announcement {
@@ -109,6 +113,15 @@ button:focus, button:active {
 .hero button {
     padding: 7% 12%;
 }
+
+.navbar-light .navbar-toggler {
+    padding: 0;
+}
+
+.navbar-light:hover .navbar-toggler:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 /* -- */
 
 /* Category */
@@ -192,14 +205,12 @@ button:focus, button:active {
   .featured {
       display: flex;
       flex-wrap: wrap;
-      padding: 0% 8% 3%;
-      /* border: 1px solid blue; */
+      padding: 0% 8% 3.5%;
       background-color: #fff8f2;
       color: #3b3b3b;
   }
 
   .featured-image {
-      /* border: 1px solid black; */
       flex: 50%;
       max-width: 50%;
   }
@@ -209,7 +220,6 @@ button:focus, button:active {
   }
 
   .featured-body {
-      /* border: 1px solid red; */
       flex: 50%;
       max-width: 50%;
       padding: 0% 10%;
@@ -233,6 +243,11 @@ button:focus, button:active {
       
 
   @media screen and (max-width: 1023px) {
+      .featured {
+        padding-top: 4%;
+        padding-bottom: 7.5%;
+      }
+
       .featured-image {
           height: 70vh;
           position: relative;
@@ -250,17 +265,20 @@ button:focus, button:active {
 
       #featured-title {
           font-size: 4vw;
+          line-height: 1.3;
       }
 
       #featured-para {
-          font-size: 1.5vw;
+          font-size: 1.7vw;
+          padding-top: 5%;
+          padding-bottom: 14%;
       }
   }
 
   @media screen and (max-width: 767px) {
       .featured {
           justify-content: center;
-          padding: 10% 0%;
+          padding: 10% 0% 13.5%;
       }
 
       .featured-image {
@@ -272,7 +290,7 @@ button:focus, button:active {
           flex: 100%;
           max-width: 100%;
           text-align: center;
-          padding-top: 5%;
+          padding-top: 7%;
       }
 
       #featured-title {
@@ -280,6 +298,137 @@ button:focus, button:active {
       }
 
       #featured-para {
-          font-size: 2.5vw;
+          font-size: 3vw;
+          padding-top: 2%;
+          padding-bottom: 7%;
       }
   }
+  /* -- */
+
+.trending {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.section-title {
+    font-family: span;
+    font-weight: 700;
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+}  
+
+.trending-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 8% 0%;
+    color: #3b3b3b;
+}
+
+.product-card {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    position: relative;
+}
+
+.product-card img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.tag {
+    font-family: degular;
+    letter-spacing: 0.08rem;
+    font-size: 0.75rem;
+    color: #e28634;
+}
+
+.product-name {
+    font-family: span;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.cat-price {
+    font-family: span;
+    letter-spacing: 0.08rem;
+}
+
+.product-details {
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 1023px) {
+    .trending {
+        padding-top: 7%;
+        padding-bottom: 12%;
+    }
+
+    .trending-items {
+        justify-content: center;
+    }
+
+    .product-card {
+        flex: 40%;
+        max-width: 40%;
+    }
+
+    .product-name {
+        font-size: 2.5vw;
+        margin-top: 1.5%;
+    }
+
+    .product-details {
+        text-align: center;
+    }
+
+    .product-card img {
+        margin-top: 15%;
+        padding: 0% 8% 0%;
+    }
+
+    .section-title {
+        font-size: 4.2vw;
+    }
+
+    .cat-price {
+        font-size: 1.7vw;
+        margin-top: 1.5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .trending {
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+    .trending-items {
+        justify-content: center;
+    }
+
+    .product-card {
+        flex: 80%;
+        max-width: 80%;
+    }
+
+    .section-title {
+        font-size: 5vw;
+    }  
+
+    .product-name {
+        font-size: 3.5vw;
+        margin-top: 1.5%;
+    }
+
+    .cat-price {
+        font-size: 3vw;
+        margin-top: 1.5%;
+    }
+
+    .product-card img {
+        margin-top: 12%;
+    }
+
+}
