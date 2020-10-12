@@ -1,23 +1,12 @@
-@font-face {
-    font-family: degular,sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: span,serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
 button {
     background-color: #ffe7d3;
     font-family: degular;
+    font-weight: 200;
     font-size: 0.85rem;
     letter-spacing: 0.08rem;
     border-radius: 16px;
     border: none;
-    color: #6d6c6c;
+    color: #3b3b3b;
     padding: 5% 7%;
 }
 
@@ -43,13 +32,19 @@ button:hover {
     font-weight: 0;
     font-size: 1rem;
 }
+
+.announcement {
+    display: flex;
+    justify-content: center;
+}
 /* -- */
 
 /* Navigation */
 
 .navbar-brand {
     font-family: span;
-    color: #6d6c6c;
+    font-weight: 700;
+    color: #3b3b3b;
 }
 
 .bg-light {
@@ -98,6 +93,7 @@ button:focus, button:active {
 .hero-title {
     font-family: span;
     font-size: 2.5rem;
+    font-weight: 700;
     color: white;
     padding-bottom: 5%;
 }
@@ -108,6 +104,10 @@ button:focus, button:active {
     background-position: center;
     background-size: cover;
     height: 75vh;
+}
+
+.hero button {
+    padding: 7% 12%;
 }
 /* -- */
 
@@ -150,6 +150,7 @@ button:focus, button:active {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: span;
+    font-weight: 700;
     font-size: 2.5vw;
     color: white;
     background-color: rgba(0, 0, 0, 0);
@@ -185,6 +186,100 @@ button:focus, button:active {
         font-size: 6vw;
     }
   }
+  /* -- */
 
 
+  .featured {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0% 8% 3%;
+      /* border: 1px solid blue; */
+      background-color: #fff8f2;
+      color: #3b3b3b;
+  }
 
+  .featured-image {
+      /* border: 1px solid black; */
+      flex: 50%;
+      max-width: 50%;
+  }
+
+  .featured img {
+      width: 100%;
+  }
+
+  .featured-body {
+      /* border: 1px solid red; */
+      flex: 50%;
+      max-width: 50%;
+      padding: 0% 10%;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+
+  #featured-title {
+      font-family: span;
+      font-size: 2.5vw;
+      font-weight: 700;
+      padding-bottom: 3%;
+  }
+
+  #featured-para {
+      font-family: span;
+      font-weight: 300;
+      font-size: 1.2vw;
+      padding-bottom: 8%;
+  }
+      
+
+  @media screen and (max-width: 1023px) {
+      .featured-image {
+          height: 70vh;
+          position: relative;
+          overflow: hidden;
+      }
+
+      .featured img {
+          height: 100%;
+          width: auto;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+      }
+
+      #featured-title {
+          font-size: 4vw;
+      }
+
+      #featured-para {
+          font-size: 1.5vw;
+      }
+  }
+
+  @media screen and (max-width: 767px) {
+      .featured {
+          justify-content: center;
+          padding: 10% 0%;
+      }
+
+      .featured-image {
+          flex: 100%;
+          max-width: 100%;
+      } 
+
+      .featured-body {
+          flex: 100%;
+          max-width: 100%;
+          text-align: center;
+          padding-top: 5%;
+      }
+
+      #featured-title {
+          font-size: 6vw;
+      }
+
+      #featured-para {
+          font-size: 2.5vw;
+      }
+  }
