@@ -549,3 +549,79 @@ button:focus, button:active {
        padding-bottom: 7%;
    }
 }
+/* -- */
+
+.reviews {
+    background-color: #fff8f2;
+    padding: 10% 0% 13%;
+}
+
+.review {
+    font-family: span;
+    font-size: 1.3vw;
+    text-align: center;
+    padding: 3% 15% 0%;
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+    background-image: none;
+}
+
+.carousel-control-prev-icon:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    font-size: 3vw;
+    color: #e28634;
+}
+
+.carousel-control-next-icon {
+    position: relative;
+    background-image: none;
+}
+
+.carousel-control-next-icon:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 3vw;
+    color: #e28634;
+}
+
+.carousel-indicators {
+    top: 170%;
+}
+
+.carousel-indicators li {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #e28634;
+}
+
+@media screen and (max-width: 1023px) {
+    .review {
+        font-size: 1.7vw;
+    }
+
+    .carousel-indicators {
+        top: 160%;
+    }
+
+    .reviews {
+        padding: 10% 0% 18%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .review {
+        font-size: 3vw;
+    }
+
+    .reviews {
+        padding: 10% 0% 22%;
+    }
+
+    .carousel-indicators {
+        top: 120%;
+    }
+}
