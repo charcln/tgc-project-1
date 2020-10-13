@@ -113,8 +113,7 @@ CR11. Contact options and business hours
 
 ## Credits
 ### Fonts
-Minotaur (https://www.productiontype.com/family/minotaur)\
-Others (https://www.fonts.adobe.com)
+Adobe Fonts
 
 ## Images
 Shop Category - Dress (https://us.fashionbunker.com/shop/clothing/dresses)
@@ -124,6 +123,8 @@ Shop Category - Bottoms (https://www.stradivarius.com/)
 Shop Category - Tops (https://andjelacollection.com/products/loren-top-in-ivory)
 
 Shop Category - Jumpsuits (https://www.selfieleslie.com/kaia-ruffle-strap-wide-leg-capri-jumpsuit-beige)
+
+About (https://weheartit.com/entry/308953101)
 
 ## Codes
 Responsive Image Gallery (https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
