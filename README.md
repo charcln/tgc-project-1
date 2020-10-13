@@ -128,3 +128,6 @@ About (https://weheartit.com/entry/308953101)
 
 ## Codes
 Responsive Image Gallery (https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
+
+## Others
+Shop Reviews (https://www.yoursclothing.com/customer-feedback)
