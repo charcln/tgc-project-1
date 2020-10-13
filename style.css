@@ -553,7 +553,7 @@ button:focus, button:active {
 
 .reviews {
     background-color: #fff8f2;
-    padding: 10% 0% 13%;
+    padding: 10% 0% 15%;
 }
 
 .review {
@@ -623,5 +623,122 @@ button:focus, button:active {
 
     .carousel-indicators {
         top: 120%;
+    }
+
+    .carousel-control-prev-icon:before {
+        font-size: 5vw;
+    }
+
+    .carousel-control-next-icon:before {
+        font-size: 5vw;
+    }
+}
+/* -- */
+
+.footer {
+    background-color: #ffe7d3;
+    color: #3b3b3b;
+    font-family: degular;
+    padding: 5% 0%;
+}
+
+.footer-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu a {
+    color: #3b3b3b;
+}
+
+.quick-links a:hover, .social-media a:hover {
+    text-decoration: none;
+    color: #e28634;
+    transition: 0.3s;
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0% 5%;
+}
+
+#footer-brand {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2vw;
+}
+
+
+.contact-us {
+    margin-bottom: 25%;
+}
+
+.footer-container {
+    display: inline-block;
+}
+
+.footer-title {
+    font-family: span;
+    font-weight: 700;
+    font-size: 1.3vw;
+    padding-bottom: 10%;
+}
+
+.copyright {
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer-title {
+        font-size: 2vw;
+    }
+
+    .footer {
+        font-size: 1.7vw;
+    }
+
+    #footer-brand {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-title {
+        font-size: 3.5vw;
+        padding-bottom: 3%;
+        margin-top: 10%;
+    }
+
+    .footer {
+        font-size: 3.2vw;
+        text-align: center;
+        padding-bottom: 15%;
+    }
+
+    #footer-brand {
+        font-size: 3vw;
+    }
+
+    #footer-brand {
+        display: none;
+    }
+
+    .footer-menu {
+        display: block;
+    }
+
+    .footer-container {
+        display: block;
+    }
+
+    .contact-us {
+        margin: 0;
+    }
+
+    .copyright {
+        margin-top: 10%;
     }
 }
