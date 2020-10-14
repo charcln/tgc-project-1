@@ -954,3 +954,61 @@ button:focus, button:active {
         padding: 0% 2%;
     }
 }
+
+.subtitle {
+    font-family: degular;
+    font-weight: 700;
+    font-size: 1.1vw;
+    letter-spacing: 0.1rem;
+    margin: 6% 0% 3%;
+}
+
+.policy-container {
+    padding: 5% 0% 8%;
+}
+
+.policy-para {
+    padding: 3% 22% 0%;
+}
+
+.policy-para p, .policy-para li {
+    font-family: span;
+    font-size: 1.3vw;
+}
+
+@media screen and (max-width: 1023px) {
+    .subtitle {
+        font-size: 1.6vw;
+    }
+
+    .policy-para p, .policy-para li {
+        font-size: 1.9vw;
+    }
+
+    .policy-para {
+        padding: 3% 18% 0%;
+    }
+
+    .policy-container {
+        padding: 9% 0% 11%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .subtitle {
+        font-size: 2.5vw;
+        margin: 12% 0% 6%;
+    }
+
+    .policy-para p, .policy-para li {
+        font-size: 3.2vw;
+    }
+
+    .policy-para {
+        padding: 3% 18% 0%;
+    }
+
+    .policy-container {
+        padding: 15% 0% 17%;
+    }
+}
