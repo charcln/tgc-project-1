@@ -331,6 +331,15 @@ button:focus, button:active {
     position: relative;
 }
 
+.product-card a {
+    color: #3b3b3b;
+}
+
+.product-card a:hover {
+    text-decoration: none;
+    color: #e28634;
+}
+
 .product-card img:hover {
     opacity: 0.8;
     transition: 0.3s;
