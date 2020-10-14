@@ -34,7 +34,7 @@ button:hover {
 /* the 'x' button for the announcement bar */
 /* resize the 'x' */
 .close {
-    font-weight: 0;
+    font-weight: unset;
     font-size: 1rem;
 }
 
