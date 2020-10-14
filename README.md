@@ -13,8 +13,9 @@ To build a static front-end site of at least 3 pages for a *clothing brand* usin
 **Site Owner's Goal:** Sell and present information about the brand and its products so that shoppers can make an informed decision when purchasing from the brand.
 
 ## Demo
-Please find the live demo [here](#).\
-***Add screenshots of mockups here.***
+Please find the live demo [here](https://charcln.github.io/tgc-project-1/).\
+![Desktop](media/read-me/desktop.png "Desktop")
+![Phone](media/read-me/phone.png "Phone")
 
 ## Strategy and Scope
 ### Strategy
@@ -79,17 +80,15 @@ FR8. Main navigation menu and a structured layout. [Project requirement]
 ```
 CR1. Reviews (US5)
 CR2. Social proof (US5)
-CR3. Special offers, promotions and discounts (US4)
-CR4. Related items upon clicking into a product page (SO3)
-CR5. Frequently Asked Questions (FAQ) (SO3)
-CR6. Policies: Exchange and Refund, Shipping (US8, 10)
-CR7. About the brand (US1)
-CR8. Product descriptions and details (US6)
-CR9. Price (US3)
-CR10. Product availibilty (US7)
-CR11. Contact options and business hours
+CR3. Related items upon clicking into a product page (SO3)
+CR4. Frequently Asked Questions (FAQ) (SO3)
+CR5. Policies: Exchange and Refund, Shipping (US8, 10)
+CR6. About the brand (US1)
+CR7. Product descriptions and details (US6)
+CR8. Price (US3)
+CR9. Product availibilty (US7)
+CR10. Contact options and business hours
 ```
-
 ## Developing the Site Structure and Organisation
 ### Site Structure
 ![Site Structure](media/read-me/site-structure.png "Site Structure")
@@ -111,6 +110,74 @@ CR11. Contact options and business hours
 ### Color
 ![Brand Colors](media/read-me/brand-palette.png "Brand Colors")
 
+## Technologies Used
+- HTML5
+- CSS
+- Bootstrap
+- GitHub
+
+## Libraries
+- Adobe Fonts
+- Bootstrap
+- FontAwesome
+
+## Testing
+
+| Test Case  | Description          | Outcome  |
+| ------------- |:-------------| -----|
+| 1         | In index.html link in the navbar leads to the specific page when clicked | Pass |
+| 2        | In index.html, buttons are responsive and leads to specific page when clicked | Pass |
+|3 | In index.html, carousel next and previous buttons are working. | Pass|
+| 4 | In index.html, Footer links are working. | Pass |
+| 5 | In index.html, external links are opened in a new tab. | Pass | 
+| 6 | In collection.html, products are organized neatly and easy to read. | Pass|
+| 7 | In delivery-policy.html and return-policy.html, proper spacing and easy to read. | Pass|
+| 8 | Stick navbar is working well. Remains at the top when scrolling down. | Pass|
+| 9 | Logo in the navbar brings you to index.html when clicked. | Pass |
+| 10 | Responsive for both desktop and mobile. | Pass |
+|
+
+## Existing Features
+- Homepage\
+The homepage has a hero banner that displays an image of the new collection with a button that is linked to it. There is an announcement bar at the top that can be dismissed upon clicking the "x" icon on the right hand side. The page also shows product catergories so that users are able to easily browse through what they want to look for such as top, bottoms, dresses and jumpsuits. The collection is also featured at the middle section of the page with a brief description about the collection. Users are able to click on the button that is linked to the collection. The section after features what is trending for the shop which users can click which brings them to the product page specifying the details of the product. A short introduction of the shop which allows users to know more about the shop. Lastly, a carousel which shows reviews from customers who have bought our product. 
+- Navbar\
+The navbar includes the shop name and navigation menu for users to have a quicker access to specific page.When on mobile, it will turn into a hamburger menu which enhance the user experience and appearance of the website. 
+- Collection Page\
+The collection page allows users to browse through our existing products. The products are organized neatly such that users are able to see a clearer picture of the products. By clicking on it, it will bring them to the product page. 
+- Product Page\
+The product page shows the price, desciption, product details and size available for the product. Users area able to add to basket in this page. Reviews are shown when scrolled down which allows users to hear more from our customers before making a decision. 
+- Shipping Policy Page\
+The shipping policy page explains the delivery methods, shipping proccessing time and shipping rates. This allows the user to have a clearer understanding on the shipping procedure which the shop uses. 
+- Return Policy Page\
+The return policy page explains the steps needed when users want to return an item or a refund. 
+- Footer\
+In the footer section, it contains the quick links section where it has the same function as the navbar for users to have quick access if needed. Social Media section is also available for users to head to the shop social media account to see and know more about the shop. Lastly the contact us portion where users will be able to contact through email or phone number. Business opening hours is also included. 
+
+## Features left to implement
+- To include an add to cart page.
+- Quantity and size selector for the product page. 
+- Tags for product to link and show products with relevant tags. (i.e display all off-shoulder tops when user clicks the #off-shoulder tag.)
+- To have an instagram section in the website.
+- Checkout page which includes items from cart and payment method. 
+- Search bar to search for related products. 
+- Pop up alerts upon site entry displaying the current promotions the shop is having. 
+- Newsletter sign up. 
+- Inclide product availability, specific product discounts and selling fast notifications. 
+- To include more product pictures as the current webpage only includes four product pictures. 
+
+### Validators
+- HTML (https://validator.w3.org/)
+- CSS (https://jigsaw.w3.org/css-validator/)
+
+### Manual Testing
+
+## Deployment
+The project was done on Visual Studio Code and Github. 
+
+- Github repositry created.
+- Link was copied and cloned locally with Visual Studio code such that webpage can run locally. 
+- Commits were pushed to GitHub for version control and webpage will be updated. 
+
 ## Credits
 ### Fonts
 Adobe Fonts
@@ -128,7 +195,9 @@ About (https://weheartit.com/entry/308953101)
 
 ## Codes
 Responsive Image Gallery (https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
+
 Reviews (https://bootsnipp.com/snippets/M5obX)
+
 Bootstrap (https://getbootstrap.com)
 
 ## Others
