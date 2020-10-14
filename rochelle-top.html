@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!-- announcement bar: code from bootstrap: https://getbootstrap.com/docs/4.5/components/alerts/ -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="index.html">milks&stone</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,6 +31,8 @@
         </div>
       </nav>
 
+      <!-- section for the product images and details: self-coded -->
+      <!-- this is a sample product taken from: https://www.thereformation.com/ and used for this project.-->
       <div class="product-page-product">
         <div class="product-images">
             <div class="product-image-row">
@@ -56,6 +59,7 @@
             </div>  
         </div>
         
+        <!-- please note that the product information is taken as a sample from: https://www.thereformation.com/ and used for this project.  -->
         <div class="product-page-details">
             <div class="tag">TOPS</div>
             <div class="product-name">Rochelle Top</div>
@@ -73,13 +77,19 @@
                 <li>Stretchy straps</li>
                 <li>Unlined</li>
             </ul>
+
+            <!-- i would like to implement a working function that allows users to select sizes in future projects. -->
             <div class="product-detail-title">SIZE(S)</div>
             <p>M</p>
             
+            <!-- the 'add to basket' button is non-functional. the function for this can be executed in future projects. -->
             <button id="add-to-basket">ADD TO BASKET</button>
         </div>
       </div>
 
+      <!-- review section: code from bootsnipp: https://bootsnipp.com/snippets/M5obX -->
+      <!-- please note that i have used the same 3 reviews for the entire website to help us visualise how the review section should look. -->
+      <!-- sample reviews were taken from: https://www.yoursclothing.com/customer-feedback/ -->
       <div class="product-reviews">
         <div class="container">
             <div class="section-title">Reviews</div>
@@ -144,10 +154,13 @@
         </div>
       </div>
 
-      <div class="trending">
+      <!-- related products section: self-coded -->
+      <!-- this section shows users some products that are related to what they are viewing. -->
+      <!-- however, for this project i have used the same 4 products across the website as examples only. -->
+      <div class="products">
         <div class="section-title">Related Looks</div>
 
-        <div class="trending-items">
+        <div class="products-items">
             <div class="product-card">
                 <a href="granada-top.html"><img src="media/images/trending/granada-top.png" alt="Granada Top"></a>
                 <div class="product-details">
@@ -183,6 +196,8 @@
         </div>
     </div>
 
+    <!-- footer: self-coded -->
+    <!-- please note that the social media links are examples only. they might lead to an account that already exists. -->
       <div class="footer">
         <div class="footer-menu">
             <div id="footer-brand" class="navbar-brand">milk&stone</div>
@@ -221,6 +236,7 @@
             </div>
         </div>
     
+        <!-- copyright section for the footer -->
         <div class="copyright">
             © 2020. milk&stone. All rights reserved.
         </div>

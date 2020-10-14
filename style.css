@@ -1,3 +1,4 @@
+/* general button styling */
 button {
     background-color: #ffe7d3;
     font-family: degular;
@@ -16,8 +17,10 @@ button:hover {
     transition: 0.3s;
 }
 
-/* Announcement */
-
+/* announcement bar */
+/* remove margin and border radius */
+/* change background color */
+/* set font preference */
 .alert {
     font-family: degular;
     font-size: 0.7rem;
@@ -28,46 +31,58 @@ button:hover {
     margin: 0;
 }
 
+/* the 'x' button for the announcement bar */
+/* resize the 'x' */
 .close {
     font-weight: 0;
     font-size: 1rem;
 }
 
+/* remove background color when hovering the 'x' button */
 .close:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 
+/* align the anouncement text to the center of the bar */
 .announcement {
     display: flex;
     justify-content: center;
 }
 /* -- */
 
-/* Navigation */
-
+/* brand logo */
+/* set font preference */
 .navbar-brand {
     font-family: span;
     font-weight: 700;
     color: #3b3b3b;
 }
 
+/* change background color */
+/* '!important' used to override bootstrap's default styling */
 .bg-light {
     background-color: #fff4eb !important;
 }
 
+/* hamburger menu (smaller screen sizes) */
+/* remove border */
 .navbar-light .navbar-toggler {
     border-color: rgba(0, 0, 0, 0);
 }
 
+/* remove default styling by bootstrap when the button is active */
 button:focus, button:active {
     outline: none !important;
     box-shadow: none;
 }
 
+/* resize hamburger icon */
 .navbar-toggler-icon {
     width: 1.2rem;
 }
 
+/* navbar menu */
+/* set font preference */
 .navbar-light .navbar-nav .nav-link {
     font-family: degular;
     font-weight: 200;
@@ -75,16 +90,28 @@ button:focus, button:active {
     color: rgb(65, 65, 65);
 }
 
+/* set hover styling */
 .navbar-light .navbar-nav .nav-link:hover {
     font-weight: 400;
     color: #e28634;
     transition: 0.4s;
 }
 
+/* remove padding */
+.navbar-light .navbar-toggler {
+    padding: 0;
+}
+
+/* remove background color when hovering the hamburger icon */
+.navbar-light:hover .navbar-toggler:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
 /* -- */
 
-/* Hero */
-
+/* hero banner: text + button */
+/* center align */
 .hero-content {
     text-align: center;
     position: absolute;
@@ -94,6 +121,8 @@ button:focus, button:active {
     
 }
 
+/* hero banner's title */
+/* set font preference */
 .hero-title {
     font-family: span;
     font-size: 2.5rem;
@@ -102,29 +131,27 @@ button:focus, button:active {
     padding-bottom: 5%;
 }
 
+/* set backgrounnd image for the hero banner */
+/* ensure that it covers the banner */
+/* set a height */
 .hero {
-    position: relative;
     background-image: url("media/images/hero-banner/hero.jpg");
     background-position: center;
     background-size: cover;
     height: 75vh;
 }
 
+/* give padding to the button */
 .hero button {
     padding: 7% 12%;
 }
 
-.navbar-light .navbar-toggler {
-    padding: 0;
-}
-
-.navbar-light:hover .navbar-toggler:hover {
-    background-color: rgba(0, 0, 0, 0);
-}
-
 /* -- */
 
-/* Category */
+/* shop category section */
+/* let products be side by side */
+/* give padding */
+/* set background color */
 .shop-category {
     display: flex;
     flex-wrap: wrap;
@@ -132,6 +159,9 @@ button:focus, button:active {
     background-color: #fff8f2;
 }
 
+/* set a suitable width */
+/* give padding */
+/* make the div relative */
 .category-item {
     flex: 25%;
     max-width: 25%;
@@ -139,23 +169,32 @@ button:focus, button:active {
     position: relative;
 }
 
+/* hover effect: opacity drop */
+/* change cursor to pointer when hovering over product */
 .category-item:hover {
     opacity: 0.8;
     transition: 0.3s;
     cursor: pointer;
 }
 
+/* change the font color when hover over product */
 .category-item:hover button {
     color: #fff4eb;
     transition: 0.3s;
 }
 
+/* set top margin */
+/* set full width so it fills up the container */
 .category-item img {
     margin-top: 8px;
-    vertical-align: middle;
     width: 100%;
 }
 
+/* make position relative */
+/* align text to the center of the image */
+/* set font preference */
+/* remove default button styling: background color */
+/* remove letter spacing */
 .cat-title {
     text-align: center;
     position: absolute;
@@ -170,31 +209,41 @@ button:focus, button:active {
     letter-spacing: 0;
 }
 
+/* hover effect: ensure opacity does not drop when hover over category title */
 .cat-title:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 
+/* media query */
 @media screen and (max-width: 1023px) {
+    /* adjust to appropriate width for the screen size */
     .category-item {
         flex: 50%;
         max-width: 50%;
     }
 
+    /* resize font */
+    /* vw unit used for scaling */
     .cat-title {
         font-size: 4vw;
     }
 }
 
+/* media query */
 @media screen and (max-width: 767px) {
+    /* align content to center */
     .shop-category {
         justify-content: center;
     }
 
+    /* adjust to appropriate width for the screen size */
     .category-item {
         flex: 80%;
         max-width: 80%;
     }
 
+    /* resize font */
+    /* vw unit used for scaling */
     .cat-title {
         font-size: 6vw;
     }
@@ -202,6 +251,11 @@ button:focus, button:active {
   /* -- */
 
 
+  /* featured collection section */
+  /* there are two main containers */
+  /* let both be side by side */
+  /* change background color: */
+  /* set font color */
   .featured {
       display: flex;
       flex-wrap: wrap;
@@ -210,15 +264,22 @@ button:focus, button:active {
       color: #3b3b3b;
   }
 
+  /* container for image */
+  /* set width: occupy half the screen */
   .featured-image {
       flex: 50%;
       max-width: 50%;
   }
 
+  /* set image full width to ensure it covers the container */
   .featured img {
       width: 100%;
   }
 
+  /* container for the content (right side) */
+  /* set width: occupy half the screen */
+  /* set left and right padding */
+  /* centralise container vertically */
   .featured-body {
       flex: 50%;
       max-width: 50%;
@@ -227,6 +288,8 @@ button:focus, button:active {
       margin-bottom: auto;
   }
 
+  /* title for the featured collection section */
+  /* set font preference */
   #featured-title {
       font-family: span;
       font-size: 2.5vw;
@@ -234,6 +297,8 @@ button:focus, button:active {
       padding-bottom: 3%;
   }
 
+  /* body content for the featured collection section */
+  /* set font preference */
   #featured-para {
       font-family: span;
       font-weight: 300;
@@ -241,19 +306,25 @@ button:focus, button:active {
       padding-bottom: 8%;
   }
       
-
+  /* media query */
   @media screen and (max-width: 1023px) {
+      /* featured section container */
+      /* set appropriate padding for the screen size */
       .featured {
         padding-top: 4%;
         padding-bottom: 7.5%;
       }
 
+      /* resize image container */
+      /* hide excess image */
       .featured-image {
           height: 70vh;
           position: relative;
           overflow: hidden;
       }
 
+      /* set full height to let image cover container */
+      /* align image to center */
       .featured img {
           height: 100%;
           width: auto;
@@ -263,10 +334,15 @@ button:focus, button:active {
           transform: translate(-50%, -50%);
       }
 
+      /* resize font */
+      /* vw unit used for scaling */
       #featured-title {
           font-size: 4vw;
       }
 
+      /* resize font */
+      /* vw unit used for scaling */
+      /* adjust padding */
       #featured-para {
           font-size: 1.7vw;
           padding-top: 5%;
@@ -274,17 +350,24 @@ button:focus, button:active {
       }
   }
 
+  /* media query */
   @media screen and (max-width: 767px) {
+      /* align content to the center */
+      /* adjust padding */
       .featured {
           justify-content: center;
           padding: 10% 0% 13.5%;
       }
 
+      /* let image occupy the screen fully in width */
       .featured-image {
           flex: 100%;
           max-width: 100%;
       } 
 
+      /* let the container for the body occupy the screen fully in width */
+      /* align text to center */
+      /* adjust padding */
       .featured-body {
           flex: 100%;
           max-width: 100%;
@@ -292,10 +375,15 @@ button:focus, button:active {
           padding-top: 7%;
       }
 
+      /* resize font */
+      /* vw unit used for scaling */
       #featured-title {
           font-size: 6vw;
       }
 
+      /* resize font */
+      /* vw unit used for scaling */
+      /* adjust padding */
       #featured-para {
           font-size: 3vw;
           padding-top: 2%;
@@ -304,11 +392,16 @@ button:focus, button:active {
   }
   /* -- */
 
-.trending {
+/* adjust padding */
+/* this is a general class (used in different parts of the website) */
+.products {
     padding-top: 4%;
     padding-bottom: 4%;
 }
 
+/* set font preference for section titles */
+/* this is a general class (used in different parts of the website) */
+/* align content to center */
 .section-title {
     font-family: span;
     font-weight: 700;
@@ -317,41 +410,55 @@ button:focus, button:active {
     justify-content: center;
 }  
 
-.trending-items {
+/* let products be side by side */
+/* adjust padding */
+/* set font color */
+.products-items {
     display: flex;
     flex-wrap: wrap;
     padding: 2% 8% 0%;
     color: #3b3b3b;
 }
 
+/* adjust width of each product */
+/* adjust padding */
 .product-card {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-    position: relative;
 }
 
+/* set font preference */
 .product-card a {
     color: #3b3b3b;
 }
 
+/* set hover effect */
+/* remove underline */
+/* change font color */
 .product-card a:hover {
     text-decoration: none;
     color: #e28634;
 }
 
+/* hover effect: opacity drop */
+/* change curser to pointer */
+/* set transition effect */
 .product-card img:hover {
     opacity: 0.8;
     transition: 0.3s;
     cursor: pointer;
 }
 
+/* give image a top margin */
+/* let image occupy the container fully in width */
 .product-card img {
     margin-top: 8px;
-    vertical-align: middle;
     width: 100%;
 }
 
+/* class used for the product category */
+/* set font preference */
 .tag {
     font-family: degular;
     letter-spacing: 0.08rem;
@@ -359,94 +466,127 @@ button:focus, button:active {
     color: #e28634;
 }
 
+/* set font preference */
 .product-name {
     font-family: span;
     font-weight: 600;
     font-size: 1.5vw;
 }
 
+/* hover effecr: color change */
+/* change cursor to pointer */
+/* set transition effect */
 .product-name:hover {
     transition: 0.3s;
     color: #e28634;
     cursor: pointer;
 }
 
+/* set font preference for price */
 .cat-price {
     font-family: span;
     letter-spacing: 0.08rem;
 }
 
+/* give top margin */
 .product-details {
     margin-top: 4%;
 }
 
+/* media query */
 @media screen and (max-width: 1023px) {
-    .trending {
+
+    /* adjust padding */
+    .products {
         padding-top: 7%;
         padding-bottom: 12%;
     }
 
-    .trending-items {
+    /* align center */
+    .products-items {
         justify-content: center;
     }
 
+    /* adjust to an appropriate width for screen size */
     .product-card {
         flex: 40%;
         max-width: 40%;
     }
 
+    /* resize font */
+    /* vw unit used for scaling */
     .product-name {
         font-size: 2.5vw;
         margin-top: 1.5%;
     }
 
+    /* align center */
     .product-details {
         text-align: center;
     }
 
+    /* adjust margin and padding */
     .product-card img {
         margin-top: 15%;
         padding: 0% 8% 0%;
     }
 
+    /* resize font */
     .section-title {
         font-size: 4.2vw;
     }
 
+    /* resize font */
+    /* adjust margin */
     .cat-price {
         font-size: 1.7vw;
         margin-top: 1.5%;
     }
 }
 
+/* media query */
 @media screen and (max-width: 767px) {
-    .trending {
+
+    /* adjust padding suitable for screen size */
+    .products {
         padding-top: 10%;
         padding-bottom: 15%;
     }
-    .trending-items {
+
+    /* align content to center */
+    .products-items {
         justify-content: center;
     }
 
+    /* adjust width suitable for screen size */
     .product-card {
         flex: 80%;
         max-width: 80%;
     }
 
+    /* resize font */
+    /* vw unit used for scaling */
     .section-title {
         font-size: 5vw;
     }  
 
+    /* resize font */
+    /* vw unit used for scaling */
+    /* adjust margin */
     .product-name {
         font-size: 3.5vw;
         margin-top: 1.5%;
     }
 
+    /* resize font */
+    /* vw unit used for scaling */
+    /* adjust margin */
     .cat-price {
         font-size: 3vw;
         margin-top: 1.5%;
     }
 
+    /* adjust margin */
     .product-card img {
         margin-top: 12%;
     }
@@ -454,6 +594,12 @@ button:focus, button:active {
 }
 /* -- */
 
+/* about section */
+/* there is one parent div and two child div that serve as containers */
+/* let the two child containers be side by side */
+/* give a height */
+/* hide any excess overflowing content */
+/* set background color */
 .about {
     display: flex;
     flex-wrap: wrap;
@@ -462,6 +608,10 @@ button:focus, button:active {
     background-color: #fff4eb;
 }
 
+/* child container: right (content) */
+/* set width to occupy half of screen */
+/* give padding */
+/* set margin top and bottom to auto to vertically align */
 .about-body {
     flex: 50%;
     max-width: 50%;
@@ -470,12 +620,18 @@ button:focus, button:active {
     margin-bottom: auto;
 }
 
+/* child container: left (image) */
+/* set width to occupy half of screen */
+/* make div relative */
 .about-image {
     flex: 50%;
     max-width: 50%;
     position: relative;
 }
 
+/* set full width to occupy the container .about-image */
+/* make div absolute */
+/* align center */
 .about-image img {
     width: 100%;
     position: absolute;
@@ -484,10 +640,13 @@ button:focus, button:active {
     transform: translate(-50%, -50%);
 }
 
+/* adjust padding */
 .about-body button {
     padding: 5% 7%;
 }
 
+/* set font preference */
+/* adjust padding */
 #about-title {
     font-family: span;
     font-weight: 700;
@@ -495,6 +654,8 @@ button:focus, button:active {
     padding-bottom: 3%;
 }
 
+/* set font preference */
+/* adjust padding */
 #about-para {
     font-family: span;
     font-weight: 300;
@@ -502,30 +663,45 @@ button:focus, button:active {
     padding-bottom: 8%;
 }
 
+/* media query */
 @media screen and (max-width: 1023px) {
+
+    /* resize font */
+    /* vw unit used for scaling */
     #about-title {
         font-size: 4.5vw;
     }
 
+    /* resize font */
+    /* vw unit used for scaling */
     #about-para {
         font-size: 1.7vw;
     }
 
+    /* adjust padding */
     .about-body {
         padding: 0% 7%;
     }
 
+    /* adjust position of the image */
     .about-image img {
         top: 50%;
     }
 }
 
+/* media query */
 @media screen and (max-width: 767px) {
+
+    /* set the height to auto so that the image and content body don't overlap */
+    /* adjust padding */
    .about {
        height: auto;
        padding: 0% 0% 10%;
    }
 
+   /* hide excess part of the image */
+   /* let image container occupy screen fully in width */
+   /* set a suitable height */
    .about-image {
        overflow: hidden;
        flex: 100%;
@@ -533,6 +709,8 @@ button:focus, button:active {
        height: 60vh;
    }
 
+   /* position image */
+   /* let image occupy the container fully */
    .about-image img {
        max-width: 100%;
        top: 70%;
@@ -540,6 +718,9 @@ button:focus, button:active {
        transform: translate(-50%, -50%);
    }
 
+   /* let container (content) occupy screenfully in width */
+   /* adjust margin and padding */
+   /* align text to center */
    .about-body {
        flex: 100%;
        max-width: 100%;
@@ -548,10 +729,15 @@ button:focus, button:active {
        padding-top: 7%;
    }
 
+   /* resize font */
+   /* vw unit used for scaling */
    #about-title {
        font-size: 6vw;
    }
 
+   /* resize font */
+   /* vw unit used for scaling */
+   /* adjust padding */
    #about-para {
        font-size: 3vw;
        padding-top: 2%;
@@ -560,11 +746,16 @@ button:focus, button:active {
 }
 /* -- */
 
+/* love notes (reviews) section */
+/* set background color */
+/* set padding */
 .reviews {
     background-color: #fff8f2;
     padding: 10% 0% 15%;
 }
 
+/* set font preference */
+/* set padding */
 .review {
     font-family: span;
     font-size: 1.3vw;
@@ -572,11 +763,15 @@ button:focus, button:active {
     padding: 3% 15% 0%;
 }
 
+/* remove bootstrap's default icon */
 .carousel-control-prev-icon {
     position: relative;
     background-image: none;
 }
 
+/* replace bootstrap icon with fontawesome icon */
+/* adjust size */
+/* change color */
 .carousel-control-prev-icon:before {
     content: "\f104";
     font-family: FontAwesome;
@@ -584,11 +779,15 @@ button:focus, button:active {
     color: #e28634;
 }
 
+/* remove bootstrap's default icon */
 .carousel-control-next-icon {
     position: relative;
     background-image: none;
 }
 
+/* replace bootstrap icon with fontawesome icon */
+/* adjust size */
+/* change color */
 .carousel-control-next-icon:before {
     content: "\f105";
     font-family: FontAwesome;
@@ -596,10 +795,14 @@ button:focus, button:active {
     color: #e28634;
 }
 
+/* position the review indicators '...' */
 .carousel-indicators {
     top: 170%;
 }
 
+/* adjust indicator's size */
+/* set full radius ; change from square to circle */
+/* change color */
 .carousel-indicators li {
     width: 7px;
     height: 7px;
@@ -607,43 +810,61 @@ button:focus, button:active {
     background-color: #e28634;
 }
 
+/* media query */
 @media screen and (max-width: 1023px) {
+
+    /* resize font */
+    /* vw unit used for scaling */
     .review {
         font-size: 1.7vw;
     }
 
+    /* position indicators */
     .carousel-indicators {
         top: 160%;
     }
 
+    /* adjust padding */
     .reviews {
         padding: 10% 0% 18%;
     }
 }
 
+/* media query */
 @media screen and (max-width: 767px) {
+
+    /* resize font */
+    /* vw unit used for scaling */
     .review {
         font-size: 3vw;
     }
 
+    /* adjust padding */
     .reviews {
         padding: 10% 0% 22%;
     }
 
+    /* position indicators */
     .carousel-indicators {
         top: 120%;
     }
 
+    /* adjust icon (previous) size */
     .carousel-control-prev-icon:before {
         font-size: 5vw;
     }
 
+    /* adjust icon (next) size */
     .carousel-control-next-icon:before {
         font-size: 5vw;
     }
 }
 /* -- */
 
+/* footer */
+/* set background color */
+/* set font preference */
+/* set padding */
 .footer {
     background-color: #ffe7d3;
     color: #3b3b3b;
@@ -651,22 +872,30 @@ button:focus, button:active {
     padding: 5% 0%;
 }
 
+/* remove bullet points */
+/* remove margin and padding */
 .footer-menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+/* set font color */
 .footer-menu a {
     color: #3b3b3b;
 }
 
+/* hover effect: no underline, set transition */
+/* change font color */
 .quick-links a:hover, .social-media a:hover {
     text-decoration: none;
     color: #e28634;
     transition: 0.3s;
 }
 
+/* let containers be side by side */
+/* give equal spacing between containers */
+/* set padding */
 .footer-menu {
     display: flex;
     flex-wrap: wrap;
@@ -674,19 +903,23 @@ button:focus, button:active {
     padding: 0% 5%;
 }
 
+/* adjust font size (footer logo) */
+/* vw unit used for scaling */
 #footer-brand {
     font-size: 2vw;
 }
 
-
+/* adjust margin between 'contact us' and 'business hours' */
 .contact-us {
     margin-bottom: 25%;
 }
 
+/* let containers hide content */
 .footer-container {
     display: inline-block;
 }
 
+/* set font preference */
 .footer-title {
     font-family: span;
     font-weight: 700;
@@ -694,92 +927,133 @@ button:focus, button:active {
     padding-bottom: 10%;
 }
 
+/* set margin for copyright */
 .copyright {
     margin-left: 5%;
 }
 
+/* media query */
 @media screen and (max-width: 1023px) {
+
+    /* adjust font size */
+    /* vw unit used for scaling */
     .footer-title {
         font-size: 2vw;
     }
 
+    /* adjust font size */
+    /* vw unit used for scaling */
     .footer {
         font-size: 1.7vw;
     }
 
+    /* adjust font size */
+    /* vw unit used for scaling */
     #footer-brand {
         font-size: 3vw;
     }
 }
 
+/* media query */
 @media screen and (max-width: 767px) {
+    
+    /* adjust font size */
+    /* vw unit used for scaling */
+    /* adjust padding and margin */
     .footer-title {
         font-size: 3.5vw;
         padding-bottom: 3%;
         margin-top: 10%;
     }
 
+    /* adjust font size */
+    /* vw unit used for scaling */
+    /* align text to center */
+    /* adjust padding */
     .footer {
         font-size: 3.2vw;
         text-align: center;
         padding-bottom: 15%;
     }
 
+    /* adjust font size */
+    /* vw unit used for scaling */
     #footer-brand {
         font-size: 3vw;
     }
 
+    /* hide brand logo */
     #footer-brand {
         display: none;
     }
 
+    /* change display to block so that divs go above/below one another */
     .footer-menu {
         display: block;
     }
 
+    /* change display to block so that divs go above/below one another */
     .footer-container {
         display: block;
     }
 
+    /* remove margin for 'contact us' */
     .contact-us {
         margin: 0;
     }
 
+    /* adjust margin for copyright */
     .copyright {
         margin-top: 10%;
     }
 }
 /* -- */
 
+/* collection */
+/* one row has 4 products */
+/* let products be side by side */
+/* set padding */
+/* set font color */
 .collection-row {
     display: flex;
     padding: 5% 8% 0%;
     color: #3b3b3b;
 }
 
+/* set padding */
 .collection {
     padding-top: 6%;
     padding-bottom: 8%;
 }
 
+/* media query */
 @media screen and (max-width: 1023px) {
+
+    /* let products fall into rows of 2 */
+    /* adjust padding */
+    /* center content */
     .collection-row {
         flex-wrap: wrap;
         justify-content: center;
         padding: 0% 0% 2%;
     }
 
+    /* adjust padding */
     .collection {
         padding-top: 5%;
         padding-bottom: 10%;
     }
 }
 
+/* media query */
 @media screen and (max-width: 767px) {
+
+    /* adjust padding */
     .collection-row {
         padding: 0% 0% 2%;
     }
 
+     /* adjust padding */
     .collection {
         padding-top: 8%;
         padding-bottom: 16%;
@@ -787,43 +1061,57 @@ button:focus, button:active {
 }
 /* -- */
 
+/* let two containers (for image and for product details) be side by side */
 .product-page-product {
-    /* border: 1px solid orange; */
     display: flex;
 }
 
+/* image container occupies half the screen */
+/* set background color */
+/* set padding */
 .product-images {
-    /* border: 1px solid blue; */
     flex: 50%;
     background-color: #fffcf8;
     padding: 5% 0%;
 }
 
+/* product details container occupes half the screen */
+/* set padding */
+/* set margin top and bottom to auto to centralise vertically */
 .product-page-details {
-    /* border: 1px solid brown; */
     flex: 50%;
     padding: 0% 10%;
     margin-top: auto;
     margin-bottom: auto;
 }
 
+/* one row has two images */
+/* let the two images be side by side */
+/* position center */
 .product-image-row {
     display: flex;
     justify-content: center;
 }
 
+/* container for image */
+/* set preferred width */
+/* set margin */
+/* hide excess image */
 .product-image-container {
     width: 40%;
     height: auto;
-    /* border: 1px solid grey; */
     margin: 2%;
     overflow: hidden;
 }
 
+/* let image occupy the width of its container fully */
 .product-image-container img {
     width: 100%;
 }
 
+/* let product tags be side by side */
+/* center align */
+/* set margin */
 .product-tags {
     display: flex;
     flex-wrap: wrap;
@@ -831,26 +1119,20 @@ button:focus, button:active {
     margin-top: 3%;
 }
 
+/* set padding and margin for tags */
 .product-tags button {
     padding: 1.5% 2.5%;
     margin: 1%;
 }
 
-.product-quantity {
-    display: flex;
-    /* border: 1px solid black; */
-}
-
-#quantity {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
+/* set padding and margin for 'add to basket' button */
 #add-to-basket {
     padding: 1.2rem 1.5rem;
     margin-top: 6%;
 }
 
+/* set font preference for product name */
+/* set margin */
 .product-detail-title {
     font-family: degular;
     font-weight: 700;
@@ -860,29 +1142,37 @@ button:focus, button:active {
     margin-bottom: 1.7%;
 }
 
+/* set font preference */
 .product-page-details p, .product-page-details li {
     font-family: span;
 }
 
+/* product reviews */
+/* set padding */
+/* set background color */
 .product-reviews {
     padding: 10% 0%;
     background-color: #fff8f2;
 }
 
+/* set bottom margin */
 .product-reviews .section-title {
     margin-bottom: 3%;
 }
 
+/* adjust size and padding */
 .col-md-10 {
     flex: 0 0 100%;
     max-width: 100%;
     padding: 1.5% 6%;
 }
 
+/* adjust margin bottom */
 .product-reviews p {
     margin-bottom: 3.5%;
 }
 
+/* set font preference */
 .name {
     font-family: degular;
     font-weight: 700;
@@ -891,70 +1181,96 @@ button:focus, button:active {
     color: #e28634;
 }
 
+/* remove margin bottom */
+/* set font preference */
 .actual-review p {
     margin-bottom: 0;
     font-family: span;
 }
 
+/* set background color */
 .card-body {
     background-color: #fff8f2;
     
 }
 
+/* remove border */
 .card {
     border: 0;
 }
 
+/* media query */
 @media screen and (max-width: 1023px) {
+
+    /* remove display */
     .product-page-product {
         display: unset;
     }
 
+    /* adjust padding */
     .product-page-details {
         padding: 6% 8%;
     }
 
+    /* adjust margin */
     #add-to-basket {
         margin-top: 3%;
     }
 
+    /* adjust margin */
+    /* adjust font size */
+    /* vw unit used for scaling */
     .actual-review p {
         margin-top: 3%;
         font-size: 2vw;
     }
 
+    /* adjust font size */
+    /* vw unit used for scaling */
     .product-page-details li, p {
         font-size: 2vw;
     }
 }
 
+/* media query */
 @media screen and (max-width: 767px) {
 
     .product-image-container {
        height: auto;
     }
+
+    /* adjust padding */
     .product-page-details {
         padding: 6% 8%;
     }
 
+    /* adjust margin */
     #add-to-basket {
         margin-top: 3%;
     }
 
+    /* adjust margin */
+    /* resize font */
+    /* vw unit used for scaling */
     .actual-review p {
         margin-top: 8%;
         font-size: 3.2vw;
     }
 
+    /* resize font */
+    /* vw unit used for scaling */
     .product-page-details li, p {
         font-size: 3.2vw;
     }
 
+    /* adjust padding */
     .product-tags {
         padding: 0% 2%;
     }
 }
 
+/* set font preference */
+/* set margin */
 .subtitle {
     font-family: degular;
     font-weight: 700;
@@ -963,51 +1279,71 @@ button:focus, button:active {
     margin: 6% 0% 3%;
 }
 
+/* set padding */
 .policy-container {
     padding: 5% 0% 8%;
 }
 
+/* set padding */
 .policy-para {
     padding: 3% 22% 0%;
 }
 
+/* resize font */
+/* vw unit used for scaling */
 .policy-para p, .policy-para li {
     font-family: span;
     font-size: 1.3vw;
 }
 
+/* media query */
 @media screen and (max-width: 1023px) {
+
+    /* resize font */
+    /* vw unit used for scaling */
     .subtitle {
         font-size: 1.6vw;
     }
 
+    /* resize font */
+    /* vw unit used for scaling */
     .policy-para p, .policy-para li {
         font-size: 1.9vw;
     }
 
+    /* adjust padding */
     .policy-para {
         padding: 3% 18% 0%;
     }
 
+    /* adjust padding */
     .policy-container {
         padding: 9% 0% 11%;
     }
 }
 
+/* media query */
 @media screen and (max-width: 767px) {
+    /* resize font */
+    /* vw unit used for scaling */
+    /* adjust margin */
     .subtitle {
         font-size: 2.5vw;
         margin: 12% 0% 6%;
     }
 
+    /* resize font */
+    /* vw unit used for scaling */
     .policy-para p, .policy-para li {
         font-size: 3.2vw;
     }
 
+    /* adjust padding */
     .policy-para {
         padding: 3% 18% 0%;
     }
 
+     /* adjust padding */
     .policy-container {
         padding: 15% 0% 17%;
     }

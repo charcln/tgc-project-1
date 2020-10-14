@@ -11,10 +11,11 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- CSS -->
         <link href="style.css" rel="stylesheet" type="text/css"/>
-    <!-- index title -->
+    <!-- Index title -->
         <title>milk&stone</title>
 </head>
 <body>
+    <!-- announcement bar: code from bootstrap: https://getbootstrap.com/docs/4.5/components/alerts/ -->
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
         <div class="announcement">FREE SHIPPING FOR ORDERS $150 AND ABOVE</div>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -22,6 +23,7 @@
         </button>
       </div>
 
+      <!-- navbar: code from bootstrap: https://getbootstrap.com/docs/4.5/components/navbar/ -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="index.html">milks&stone</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +38,7 @@
         </div>
       </nav>
 
+      <!-- hero banner: coded by self -->
         <div class="hero">
             <div class="hero-content">
                 <div class="hero-title">Nude Collection</div>
@@ -44,6 +47,10 @@
             <div class="hero-img"></div>
         </div>
 
+    <!-- shop by category: self-coded, links lead to a single collection page (collection.html) which is an example of how the collection page should look like. -->
+    <!-- the collection page (collection.html) linked is used for all categories. this means that the content remains the same. -->
+    <!-- please note that only 4 products were used for the entire website, they are only to help us see how the collection/product pages look. -->
+    <!-- i have refrained from adding more than 4 products so that there won't be a need to create so many different product pages -->
     <div class="shop-category">
         <div class="category-item">
             <a href="collection.html"><img src="media/images/shop-category/tops.png" alt="Tops"></a>
@@ -63,6 +70,9 @@
         </div>
     </div>
 
+    <!-- featured collection section: self-coded -->
+    <!-- if we want to feature a collection, this is the section we'll use. -->
+    <!-- i have only created one collection page (collection.html) for this project. therefore, this collection is linked to it (collection.html). -->
     <div class="featured">
         <div class="featured-image">
             <img src="media/images/featured/featured.png" alt="The Nude Collection">
@@ -74,10 +84,13 @@
         </div>
     </div>
 
-    <div class="trending">
+    <!-- trending section: self-coded -->
+    <!-- to tell users which products (for this project, i have used the same 4 products for the entire website) are being loved by customers -->
+    <!-- the sample products were taken from: https://www.thereformation.com/ and used for this project. -->
+    <div class="products">
         <div class="section-title">What's Trending</div>
 
-        <div class="trending-items">
+        <div class="products-items">
             <div class="product-card">
                 <a href="granada-top.html"><img src="media/images/trending/granada-top.png" alt="Granada Top"></a>
                 <div class="product-details">
@@ -113,6 +126,7 @@
         </div>
     </div>
 
+    <!-- about section: self-coded -->
     <div class="about">
         <div class="about-image">
             <img src="media/images/about/about.jpg" alt="milk&stone">
@@ -120,10 +134,12 @@
         <div class="about-body">
             <div id="about-title">milk&stone</div>
             <div id="about-para">Modern and contemporary clothing for present-time women. We make shopping easier for women who love feminine and mature clothing. Our brand upholds the importance of creating clothing with fine materials and offering only the best luxury to our customers. </div>
-            <button>LEARN MORE</button>
         </div>
     </div>
 
+    <!-- reviews sectionn (carousel): code from bootstrap: https://getbootstrap.com/docs/4.5/components/carousel/ -->
+    <!-- sample reviews were taken from: https://www.yoursclothing.com/customer-feedback/ -->
+    <!-- please note that i have used the same reviews for the entire website (product page) for this project. -->
     <div class="reviews">
         <div class="section-title">Love Notes</div>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -155,6 +171,8 @@
           </div>
     </div>
 
+    <!-- footer: self-coded -->
+    <!-- please note that the social media links are examples only. they might lead to an account that already exists. -->
     <div class="footer">
         <div class="footer-menu">
             <div id="footer-brand" class="navbar-brand">milk&stone</div>
@@ -193,6 +211,7 @@
             </div>
         </div>
     
+        <!-- copyright section for the footer -->
         <div class="copyright">
             © 2020. milk&stone. All rights reserved.
         </div>
