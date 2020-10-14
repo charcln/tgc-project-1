@@ -766,7 +766,7 @@ button:focus, button:active {
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
     .collection-row {
         padding: 0% 0% 2%;
     }
@@ -805,7 +805,7 @@ button:focus, button:active {
 
 .product-image-container {
     width: 40%;
-    height: 50vh;
+    height: auto;
     /* border: 1px solid grey; */
     margin: 2%;
     overflow: hidden;
@@ -894,4 +894,54 @@ button:focus, button:active {
 
 .card {
     border: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .product-page-product {
+        display: unset;
+    }
+
+    .product-page-details {
+        padding: 6% 8%;
+    }
+
+    #add-to-basket {
+        margin-top: 3%;
+    }
+
+    .actual-review p {
+        margin-top: 3%;
+        font-size: 2vw;
+    }
+
+    .product-page-details li, p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .product-image-container {
+       height: auto;
+    }
+    .product-page-details {
+        padding: 6% 8%;
+    }
+
+    #add-to-basket {
+        margin-top: 3%;
+    }
+
+    .actual-review p {
+        margin-top: 8%;
+        font-size: 3.2vw;
+    }
+
+    .product-page-details li, p {
+        font-size: 3.2vw;
+    }
+
+    .product-tags {
+        padding: 0% 2%;
+    }
 }
