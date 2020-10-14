@@ -129,6 +129,7 @@ About (https://weheartit.com/entry/308953101)
 ## Codes
 Responsive Image Gallery (https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
 Reviews (https://bootsnipp.com/snippets/M5obX)
+Bootstrap (https://getbootstrap.com)
 
 ## Others
 Shop Reviews (https://www.yoursclothing.com/customer-feedback)
@@ -136,3 +137,7 @@ Shop Reviews (https://www.yoursclothing.com/customer-feedback)
 Delivery Policy (https://www.termsfeed.com/blog/sample-shipping-policy-template/)
 
 Return Policy (https://docs.google.com/document/d/1xLNxzUbNgR6eml-VZXuSApX3d6DyYtuxjqUDvYCaWy0/edit)
+
+Sample Products (https://thereformation.com)
+
+Icons (FontAwesome https://fontawesome.com)
