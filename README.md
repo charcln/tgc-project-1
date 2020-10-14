@@ -132,4 +132,7 @@ Reviews (https://bootsnipp.com/snippets/M5obX)
 
 ## Others
 Shop Reviews (https://www.yoursclothing.com/customer-feedback)
+
 Delivery Policy (https://www.termsfeed.com/blog/sample-shipping-policy-template/)
+
+Return Policy (https://docs.google.com/document/d/1xLNxzUbNgR6eml-VZXuSApX3d6DyYtuxjqUDvYCaWy0/edit)
