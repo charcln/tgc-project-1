@@ -121,39 +121,29 @@ CR10. Contact options and business hours
 - Bootstrap
 - FontAwesome
 
-## Testing
-
-| Test Case  | Description          | Outcome  |
-| ------------- |:-------------| -----|
-| 1         | In index.html link in the navbar leads to the specific page when clicked | Pass |
-| 2        | In index.html, buttons are responsive and leads to specific page when clicked | Pass |
-|3 | In index.html, carousel next and previous buttons are working. | Pass|
-| 4 | In index.html, Footer links are working. | Pass |
-| 5 | In index.html, external links are opened in a new tab. | Pass | 
-| 6 | In collection.html, products are organized neatly and easy to read. | Pass|
-| 7 | In delivery-policy.html and return-policy.html, proper spacing and easy to read. | Pass|
-| 8 | Stick navbar is working well. Remains at the top when scrolling down. | Pass|
-| 9 | Logo in the navbar brings you to index.html when clicked. | Pass |
-| 10 | Responsive for both desktop and mobile. | Pass |
-|
-
 ## Existing Features
 - Homepage\
 The homepage has a hero banner that displays an image of the new collection with a button that is linked to it. There is an announcement bar at the top that can be dismissed upon clicking the "x" icon on the right hand side. The page also shows product catergories so that users are able to easily browse through what they want to look for such as top, bottoms, dresses and jumpsuits. The collection is also featured at the middle section of the page with a brief description about the collection. Users are able to click on the button that is linked to the collection. The section after features what is trending for the shop which users can click which brings them to the product page specifying the details of the product. A short introduction of the shop which allows users to know more about the shop. Lastly, a carousel which shows reviews from customers who have bought our product. 
+
 - Navbar\
 The navbar includes the shop name and navigation menu for users to have a quicker access to specific page.When on mobile, it will turn into a hamburger menu which enhance the user experience and appearance of the website. 
+
 - Collection Page\
 The collection page allows users to browse through our existing products. The products are organized neatly such that users are able to see a clearer picture of the products. By clicking on it, it will bring them to the product page. 
+
 - Product Page\
 The product page shows the price, desciption, product details and size available for the product. Users area able to add to basket in this page. Reviews are shown when scrolled down which allows users to hear more from our customers before making a decision. 
+
 - Shipping Policy Page\
 The shipping policy page explains the delivery methods, shipping proccessing time and shipping rates. This allows the user to have a clearer understanding on the shipping procedure which the shop uses. 
+
 - Return Policy Page\
 The return policy page explains the steps needed when users want to return an item or a refund. 
+
 - Footer\
 In the footer section, it contains the quick links section where it has the same function as the navbar for users to have quick access if needed. Social Media section is also available for users to head to the shop social media account to see and know more about the shop. Lastly the contact us portion where users will be able to contact through email or phone number. Business opening hours is also included. 
 
-## Features left to implement
+## Features Left To Implement
 - To include an add to cart page.
 - Quantity and size selector for the product page. 
 - Tags for product to link and show products with relevant tags. (i.e display all off-shoulder tops when user clicks the #off-shoulder tag.)
@@ -170,6 +160,18 @@ In the footer section, it contains the quick links section where it has the same
 - CSS (https://jigsaw.w3.org/css-validator/)
 
 ### Manual Testing
+| Test Case  | Description          | Outcome  |
+| ------------- |:-------------| -----|
+| 1         | In index.html link in the navbar leads to the specific page when clicked | Pass |
+| 2        | In index.html, buttons are responsive and leads to specific page when clicked | Pass |
+|3 | In index.html, carousel next and previous buttons are working. | Pass|
+| 4 | In index.html, Footer links are working. | Pass |
+| 5 | In index.html, external links are opened in a new tab. | Pass | 
+| 6 | In collection.html, products are organized neatly and easy to read. | Pass|
+| 7 | In delivery-policy.html and return-policy.html, proper spacing and easy to read. | Pass|
+| 8 | Stick navbar is working well. Remains at the top when scrolling down. | Pass|
+| 9 | Logo in the navbar brings you to index.html when clicked. | Pass |
+| 10 | Responsive for both desktop and mobile. | Pass |
 
 ## Deployment
 The project was done on Visual Studio Code and Github. 
