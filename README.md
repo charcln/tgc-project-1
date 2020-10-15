@@ -132,11 +132,18 @@ CR10. Contact options and business hours
   * Review Carousel: It is used to showcase selected reviews from customers. Users are able to click on the previous and next buttons to look through the reviews. It is also set on auto-play. Please note that the same 3 reviews were used across the entire website. It is only to help us visualise how the site would look like with actual content. 
   
 
-- Navbar\
-The navbar includes the shop name and navigation menu for users to have a quicker access to specific page.When on mobile, it will turn into a hamburger menu which enhance the user experience and appearance of the website. 
+* Navbar
+ * Includes the brand logo and navigation menu.
+ * Allows users to have quick access to different pages.
+ * It is sticky for user's convenience. It saves the hassle of scrolling back up to access the navigation menu.
+ * On mobile, it turns into a hamburger menu to enhance the user experience and appearance of the website. 
 
-- Collection Page\
-The collection page allows users to browse through our existing products. The products are organized neatly such that users are able to see a clearer picture of the products. By clicking on it, it will bring them to the product page. 
+* Collection Page
+ * Allows users to browse through our existing products.
+ * Products are organized neatly in rows of 4 and with the use of padding/margin.
+ * On mobile, the rows will be reduced rows of 2 and 1.
+ * Clicking on the products will bring the user to the relevant product page.
+ * Please note that the same 4 products were used across the website. They were used repeatedly only to help us visualise how the site should look like. For a real project, of course the products will be in full range according to the website owner's requirements.
 
 - Product Page\
 The product page shows the price, desciption, product details and size available for the product. Users area able to add to basket in this page. Reviews are shown when scrolled down which allows users to hear more from our customers before making a decision. 
