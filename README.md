@@ -122,8 +122,15 @@ CR10. Contact options and business hours
 - FontAwesome
 
 ## Existing Features
-- Homepage\
-The homepage has a hero banner that displays an image of the new collection with a button that is linked to it. There is an announcement bar at the top that can be dismissed upon clicking the "x" icon on the right hand side. The page also shows product catergories so that users are able to easily browse through what they want to look for such as top, bottoms, dresses and jumpsuits. The collection is also featured at the middle section of the page with a brief description about the collection. Users are able to click on the button that is linked to the collection. The section after features what is trending for the shop which users can click which brings them to the product page specifying the details of the product. A short introduction of the shop which allows users to know more about the shop. Lastly, a carousel which shows reviews from customers who have bought our product. 
+* Homepage
+  * Announcement Bar: It is used to display important information that the customer should know.
+  * Hero Banner: It is used to display new collections and on-going promotions, etc.
+  * Product Categories: It is for users to browse the products based on which category they have chosed. Please note that the same page (collection.html) has been linked to these categories since this is a fictitious project. Furthermore, no more than four products have been used. For a real project, the website will of course include actual products and different pages for the categories.
+  * Featured Collection: For the website owner to feature a collection. It could be a new collection or a collection that is popular among customers. Please note that this is also linked to the page (collection.html).
+  * Trending: It is used to showcase the best-selling products to provide information and convenience to customers. It displayed the product image, category, name and price.
+  * About Snippet: It is used to briefly introduce the brand to its customers.
+  * Review Carousel: It is used to showcase selected reviews from customers. Users are able to click on the previous and next buttons to look through the reviews. It is also set on auto-play. Please note that the same 3 reviews were used across the entire website. It is only to help us visualise how the site would look like with actual content. 
+  
 
 - Navbar\
 The navbar includes the shop name and navigation menu for users to have a quicker access to specific page.When on mobile, it will turn into a hamburger menu which enhance the user experience and appearance of the website. 
