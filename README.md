@@ -133,17 +133,17 @@ CR10. Contact options and business hours
   
 
 * Navbar
- * Includes the brand logo and navigation menu.
- * Allows users to have quick access to different pages.
- * It is sticky for user's convenience. It saves the hassle of scrolling back up to access the navigation menu.
- * On mobile, it turns into a hamburger menu to enhance the user experience and appearance of the website. 
+  * Includes the brand logo and navigation menu.
+  * Allows users to have quick access to different pages.
+  * It is sticky for user's convenience. It saves the hassle of scrolling back up to access the navigation menu.
+  * On mobile, it turns into a hamburger menu to enhance the user experience and appearance of the website. 
 
 * Collection Page
- * Allows users to browse through our existing products.
- * Products are organized neatly in rows of 4 and with the use of padding/margin.
- * On mobile, the rows will be reduced rows of 2 and 1.
- * Clicking on the products will bring the user to the relevant product page.
- * Please note that the same 4 products were used across the website. They were used repeatedly only to help us visualise how the site should look like. For a real project, of course the products will be in full range according to the website owner's requirements.
+  * Allows users to browse through our existing products.
+  * Products are organized neatly in rows of 4 and with the use of padding/margin.
+  * On mobile, the rows will be reduced rows of 2 and 1.
+  * Clicking on the products will bring the user to the relevant product page.
+  * Please note that the same 4 products were used across the website. They were used repeatedly only to help us visualise how the site should look like. For a real project, of course the products will be in full range according to the website owner's requirements.
 
 - Product Page\
 The product page shows the price, desciption, product details and size available for the product. Users area able to add to basket in this page. Reviews are shown when scrolled down which allows users to hear more from our customers before making a decision. 
