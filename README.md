@@ -153,7 +153,7 @@ In the footer section, it contains the quick links section where it has the same
 - Pop up alerts upon site entry displaying the current promotions the shop is having. 
 - Newsletter sign up. 
 - Inclide product availability, specific product discounts and selling fast notifications. 
-- To include more product pictures as the current webpage only includes four product pictures. 
+- To include more products. The project only shows 4 products at the moment.
 
 ### Validators
 - HTML (https://validator.w3.org/)
